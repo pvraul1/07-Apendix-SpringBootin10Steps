@@ -1,7 +1,10 @@
 package com.in28minutes.spring.learnspringframework.game;
 
+import org.springframework.stereotype.Component;
+
 import lombok.extern.slf4j.Slf4j;
 
+@Component
 @Slf4j
 public class MarioGame implements GamingConsole {
 
