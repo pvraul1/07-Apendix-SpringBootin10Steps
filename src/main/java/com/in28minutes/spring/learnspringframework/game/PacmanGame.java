@@ -3,26 +3,26 @@ package com.in28minutes.spring.learnspringframework.game;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class MarioGame implements GamingConsole {
+public class PacmanGame implements GamingConsole {
 
 	@Override
 	public void up() {
-		log.info("jump");
+		log.info("PacmanGame up");
 	}
 
 	@Override
 	public void down() {
-		log.info("down into a hole");
+		log.info("PacmanGame down");
 	}
 
 	@Override
 	public void left() {
-		log.info("stop");
+		log.info("PacmanGame left");
 	}
 
 	@Override
 	public void right() {
-		log.info("run");
+		log.info("PacmanGame right");
 	}
 
 }
