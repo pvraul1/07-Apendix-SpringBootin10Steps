@@ -3,22 +3,22 @@ package com.in28minutes.spring.learnspringframework.game;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class MarioGame {
+public class SuperContraGame {
 
 	public void up() {
-		log.info("up");
+		log.info("SuperContraGame up");
 	}
 
 	public void down() {
-		log.info("down");
+		log.info("SuperContraGame down");
 	}
 
 	public void left() {
-		log.info("left");
+		log.info("SuperContraGame left");
 	}
 
 	public void right() {
-		log.info("right");
+		log.info("SuperContraGame right");
 	}
 
 }
